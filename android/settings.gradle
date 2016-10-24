@@ -1,0 +1,3 @@
+rootProject.name = 'FlavrHackathon'
+
+include ':app'

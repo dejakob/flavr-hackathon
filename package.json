@@ -1,0 +1,36 @@
+{
+  "name": "FlavrHackathon",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "npm-run-all --parallel mock-server react-native",
+    "react-native": "node node_modules/react-native/local-cli/cli.js start",
+    "mock-server": "node node_modules/flavr-hackathon-server/index.js",
+    "update-scheme": "node node_modules/flavr-hackathon-server/cli/generate-json-schema.js",
+    "lint": "node node_modules/eslint/bin/eslint.js --fix ./lib/**/**/*.js ./lib/**/**/*.jsx ./lib/**/*.js"
+  },
+  "dependencies": {
+    "babel-relay-plugin": "0.9.3",
+    "flavr-hackathon-server": "github:dejakob/flavr-hackathon-server",
+    "graphql": "0.7.1",
+    "graphql-relay": "0.4.3",
+    "immutable": "3.8.1",
+    "npm-run-all": "3.1.0",
+    "react": "15.3.2",
+    "react-native": "0.34.1",
+    "react-native-button": "1.7.1",
+    "react-native-drawer-layout": "1.1.0",
+    "react-native-swipe-cards": "0.0.9",
+    "react-redux": "4.4.5",
+    "react-relay": "0.9.3",
+    "redux": "3.6.0",
+    "reselect": "2.5.4"
+  },
+  "devDependencies": {
+    "eslint": "3.7.1",
+    "eslint-config-airbnb": "12.0.0",
+    "eslint-plugin-import": "2.0.1",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "6.4.1"
+  }
+}

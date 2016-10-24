@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "indent": [ 2, 4 ],
+    "comma-dangle": 0,
+    "space-before-function-paren": ["error", "always"],
+    "strict": [ 2, "global" ],
+    "no-trailing-spaces": 0,
+    "no-use-before-define": [ 2, "nofunc" ],
+    "brace-style": [ 2, "stroustrup" ],
+    "new-cap": 0,
+    "no-irregular-whitespace": 0,
+    "global-require": 0,
+    "import/prefer-default-export": 0,
+    "react/jsx-filename-extension": 0
+  }
+}
