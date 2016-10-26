@@ -1,5 +1,7 @@
 # React Native Hackathon
 
+(Make sure watchman and npm are installed)
+
 ## Set up (iOS)
 * Clone the repo
 * Run npm install
